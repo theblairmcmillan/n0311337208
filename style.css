@@ -4,7 +4,7 @@ body, html {
 	background-color: #3e4847;
 }
 
-h1, h3, h4,h5, p {
+h1, h3, h4,h5, h6, p {
 	color: #b0643c;
 }
 
@@ -19,9 +19,12 @@ h1, h3, h4,h5, p {
 }
 
 
-h1,h3, h4, h5 {
+h1, h3, h4, h5, h6 {
 	font-family: "Domaine", sans-serif;
+}
 
+.domaine {
+	font-family: "Domaine", sans-serif;
 }
 
 p {
@@ -37,28 +40,33 @@ p {
 }
 
 #firstRow {
-	height: 80px;
+	height: 70px;
 	overflow: hidden;
 }
 
 #addressRow img {
-	height: 60px;
+	height: 50px;
 	margin: 8px;
 }
 
 #thirdRow {
-	height: 120px;
+	height: 100px;
 	overflow: hidden;
 	margin: 2px;
 }
 
 #logoRow #name {
-	height: 60px;
+	height: 50px;
 	margin: 8px;
 }
 
+#logoRow .tag-line {
+	margin-top: 5px;
+	font-size: 0.8em;
+}
+
 #logoRow .diamond {
-	width: 15px;
+	width: 10px;
 }
 
 #arrowRow {
