@@ -4,9 +4,6 @@ body, html {
 	background-color: #3e4847;
 }
 
-h1 {
-	color:white;
-}
 
 .center-align {
 	text-align: center !important;
@@ -28,7 +25,7 @@ h1 {
 	margin: 2px;
 }
 
-h1, h3, h4, p {
+h1, h3, h4,h5, p {
 	color: #b0643c;
 }
 
@@ -43,12 +40,53 @@ h1, h3, h4, p {
 }
 
 
-h1 {
-	font-family: "Domaine", sans-serif 
+h1,h3, h4, h5 {
+	font-family: "Domaine", sans-serif;
+
 }
 
 p {
 	font-family: "Grotesk", sans-serif;
+}
+
+
+
+#arrowRow {
+	height: 120px;
+	overflow: hidden;
+	text-align: center;
+}
+
+#arrowRow img {
+	display: block;
+	margin: auto;
+}
+
+
+#stayAWhileRow #heron {
+	height: 300px;
+}
+
+#stayAWhileRow .diamond {
+	height: 20px;
+}
+
+#stayAWhileRow #address {
+	height: 70px;
+}
+
+#aBriefHistoryRow h3 p {
+	margin-top: 20px
+}
+
+#building {
+	height: 800px;
+	margin-right: 10px;
+
+}
+
+#aTownFullRow #quote {
+	max-width: 280px;
 }
 
 
