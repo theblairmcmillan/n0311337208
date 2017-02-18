@@ -4,8 +4,22 @@ body, html {
 	background-color: #3e4847;
 }
 
-h1, h3, h4,h5, h6, p {
+h1, h2, h3,h5, h6, p {
 	color: #b0643c;
+}
+
+h1 {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 12px;
 }
 
 @font-face {
@@ -19,7 +33,7 @@ h1, h3, h4,h5, h6, p {
 }
 
 
-h1, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
 	font-family: "Domaine", sans-serif;
 }
 
@@ -29,6 +43,8 @@ h1, h3, h4, h5, h6 {
 
 p {
 	font-family: "Grotesk", sans-serif;
+	font-size: 14px;
+	line-height: 1.2;
 }
 
 .center-align {
@@ -37,6 +53,10 @@ p {
 
 .centerLine {
 	width: 2px;
+}
+
+.btm-mrg {
+	margin-bottom: 8px;
 }
 
 #firstRow {
@@ -75,7 +95,8 @@ p {
 	text-align: center;
 }
 
-#arrowRow img {
+#arrowRow img,
+#bigLineRow img {
 	display: block;
 	margin: auto;
 }
@@ -85,15 +106,21 @@ p {
 }
 
 #stayAWhileRow #heron {
-	height: 300px;
+	height: 340px;
 }
 
-#stayAWhileRow .diamond {
-	height: 20px;
+#stayAWhileRow h3 {
+	/*margin-top: 65px;*/
 }
 
-#stayAWhileRow #address {
+#stayAWhileRow .top-line {
 	height: 70px;
+	overflow: hidden;
+}
+
+#stayAWhileRow .btm-line {
+	height: 90px;
+	margin-top: 19px;
 }
 
 #aBriefHistoryRow h3 p {
