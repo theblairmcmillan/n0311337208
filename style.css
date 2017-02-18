@@ -11,3 +11,47 @@ h1 {
 .center-align {
 	text-align: center !important;
 }
+
+#firstRow {
+	height: 60px;
+	overflow: hidden;
+}
+
+#addressRow img {
+	height: 80px;
+	margin: 2px;
+}
+
+#thirdRow {
+	height: 120px;
+	overflow: hidden;
+	margin: 2px;
+}
+
+h1, h3, h4, p {
+	color: #b0643c;
+}
+
+@font-face {
+  font-family: "Domaine";
+  src: url(fonts/vllg-Klim-DomaineSansText-AllStyles-WebFonts/DomaineSansTextWeb-Bold.woff) format("truetype");
+}
+
+@font-face {
+  font-family: "Grotesk";
+  src: url(fonts/vllg-Klim-FoundersGroteskText-AllStyles-WebFonts/FoundersGroteskTextWeb-Regular.woff) format("truetype");
+}
+
+
+h1 {
+	font-family: "Domaine", sans-serif 
+}
+
+p {
+	font-family: "Grotesk", sans-serif;
+}
+
+
+
+
+
