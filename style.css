@@ -4,27 +4,6 @@ body, html {
 	background-color: #3e4847;
 }
 
-
-.center-align {
-	text-align: center !important;
-}
-
-#firstRow {
-	height: 60px;
-	overflow: hidden;
-}
-
-#addressRow img {
-	height: 80px;
-	margin: 2px;
-}
-
-#thirdRow {
-	height: 120px;
-	overflow: hidden;
-	margin: 2px;
-}
-
 h1, h3, h4,h5, p {
 	color: #b0643c;
 }
@@ -49,10 +28,41 @@ p {
 	font-family: "Grotesk", sans-serif;
 }
 
+.center-align {
+	text-align: center !important;
+}
 
+.centerLine {
+	width: 2px;
+}
+
+#firstRow {
+	height: 80px;
+	overflow: hidden;
+}
+
+#addressRow img {
+	height: 60px;
+	margin: 8px;
+}
+
+#thirdRow {
+	height: 120px;
+	overflow: hidden;
+	margin: 2px;
+}
+
+#logoRow #name {
+	height: 60px;
+	margin: 8px;
+}
+
+#logoRow .diamond {
+	width: 15px;
+}
 
 #arrowRow {
-	height: 120px;
+	height: 150px;
 	overflow: hidden;
 	text-align: center;
 }
@@ -62,6 +72,9 @@ p {
 	margin: auto;
 }
 
+#arrowRow .arrow {
+	width: 30px;
+}
 
 #stayAWhileRow #heron {
 	height: 300px;
@@ -88,8 +101,3 @@ p {
 #aTownFullRow #quote {
 	max-width: 280px;
 }
-
-
-
-
-
