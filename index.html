@@ -6,13 +6,14 @@
   <title>NOELLE</title>
   <meta name="description" content="Noelle Hotel">
   <link rel="stylesheet" href="bower_components/remodal/dist/remodal.css">
-  <link rel="stylesheet" href="bower-components?remodal/dist/remodal-default-theme.css">
+  <link rel="stylesheet" href="bower_components/remodal/dist/remodal-default-theme.css">
   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/png" href="images/noelle-hotel-nashville-tn_small-diamond.png">
 </head>
 
-<body class="remodal-bg">
-  <div class="container">
+<body>
+  <div class="container" class="remodal-bg">
   	<!--- TOP ROW FOR VERTICAL LINE -->
   	<div class="row center-align" id="firstRow">
   		<div class="col-md-12">
@@ -267,11 +268,21 @@
 
 <!-- modal-->
   	<div id="remodal" class="remodal" data-remodal-id="modal" data-remodal-options="hashTracking: false, closeOnOutsideClick: true" displayed="false">
-  		<button data-remodal-action="close" class="remodal-close">x</button>
+  		<button data-remodal-action="close" class="remodal-close"></button>
   		<h1>Sign up to be in the know</h1>
   		<p>Get the scoop on pre-opening specials, events<br> and other great happenings at Noelle. 
   		</p>
   		<br>
+  		<form>
+  		First name:<br>
+  		<input type="text" name="firstname"><br>
+  		Last name:<br>
+  		<input type="text" name="lastname">
+  		Email:<br>
+  		<input type="text" name="email">
+  		Birthday:<br>
+  		<input type="text" name="email">
+		</form>
   		<button data-remodal-action="confirm" class="remodal-confirm">SUBMIT</button>
 	</div>
 
