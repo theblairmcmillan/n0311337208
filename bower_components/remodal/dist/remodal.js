@@ -160,7 +160,7 @@
       $elem.css('-o-animation-name') === 'none' &&
       $elem.css('-ms-animation-name') === 'none'
     ) {
-      return 0;
+      return 2;
     }
 
     var duration = $elem.css('animation-duration') ||
@@ -168,7 +168,7 @@
       $elem.css('-moz-animation-duration') ||
       $elem.css('-o-animation-duration') ||
       $elem.css('-ms-animation-duration') ||
-      '0s';
+      '2s';
 
     var delay = $elem.css('animation-delay') ||
       $elem.css('-webkit-animation-delay') ||
