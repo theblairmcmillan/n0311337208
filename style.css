@@ -216,6 +216,19 @@ p {
 
 #remodal {
 	border: 5px solid #b0643c;
+	width: 400px;
 
 }
 
+#remodal form input {
+	border: 1px solid #b0643c;
+}
+
+#submit {
+	background-color: #b0643c;
+	color: white;
+}
+
+#remodel button {
+	color: #b0643c;
+}
