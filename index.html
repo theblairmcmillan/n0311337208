@@ -270,21 +270,45 @@
   	<div id="remodal" class="remodal" data-remodal-id="modal" data-remodal-options="hashTracking: false, closeOnOutsideClick: true" displayed="false">
   		<button data-remodal-action="close" class="remodal-close"></button>
   		<h1>Sign up to be in the know</h1>
-  		<p>Get the scoop on pre-opening specials, events<br> and other great happenings at Noelle. 
+  		<p>
+        Get the scoop on pre-opening specials, events<br>
+        and other great happenings at Noelle.
   		</p>
   		<br>
-  		<form>
-  		FIRST NAME:<br>
-  		<input type="text" name="firstname"><br>
-  		LAST NAME:<br>
-  		<input type="text" name="lastname">
-  		EMAIL:<br>
-  		<input type="text" name="email">
-  		BIRTHDAY:<br>
-  		<input type="text" name="email">
-		</form>
-  		<button data-remodal-action="confirm" class="remodal-confirm" id="submit">SUBMIT</button>
-	</div>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+      		<form>
+            <div class="row">
+              <div class="col-sm-6 pad-right">
+        		    <label for="firstname">FIRST NAME</label><br>
+        		    <input type="text" name="firstname" id="firstname"><br>
+              </div>
+              <div class="col-sm-6 pad-left">
+        	      <label for="lastname">LAST NAME</label><br>
+                <input type="text" name="lastname" id="lastname">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <label for="email">EMAIL</label><br>
+                <input type="text" name="email" id="email">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 pad-right">
+                <label for="birthday">BIRTHDAY</label><br>
+                <input type="text" name="birthday" id="birthday" placeholder="  /  /  ">
+              </div>
+              <div class="col-sm-6 pad-left">
+                <label></label><br>
+                <input type="submit" data-remodal-action="confirm" class="remodal-confirm" id="submit">
+              </div>
+            </div>
+    		  </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
