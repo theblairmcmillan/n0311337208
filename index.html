@@ -238,17 +238,17 @@
   	<!-- BUTTON ROW -->
   	<div class="row center-align" id="buttonRow">
   		<div class="col-md-1"></div>
-  		<div class="col-md-2">
+  		<div class="col-md-3">
   			<div id="button1">
-  				<h6>GENERAL QUESTIONS</h6>
+  				<h3>GENERAL QUESTIONS</h3>
   			</div>
   		</div>
-  		<div class="col-md-6">
-  			<h6>THE END OF THE LINE</h6>
+  		<div class="col-md-4">
+  			<h3 id="end-of-the-line">THE END OF THE LINE</h3>
   		</div>
-  		<div class="col-md-2">
+  		<div class="col-md-3">
   			<div id="button2">
-  				<h6>MEDIA INQUIRIES</h6>
+  				<h3>MEDIA INQUIRIES</h3>
   			</div>
   		</div>
   		<div class="col-md-1"></div>
@@ -257,34 +257,58 @@
 
   	<!-- FOOTER ROW -->
   	<div class="row center-align" id="footerRow">
-  		<div class="col-md-4">
-  			<p>2017 NOELLE. ALL RIGHTS RESERVED</p>
+  		<div class="col-md-3 col-md-offset-1">
+  			<p>&copy;2017 NOELLE. ALL RIGHTS RESERVED</p>
   		</div>
   		<div class="col-md-4" id="logomark">
   			<img src="images/noelle-hotel-nashville-tn_logomark.png">
   		</div>
-  		<div class="col-md-4"><p>200 FOURTH AVE. N. NASHVILLE,TN</p></div>
+  		<div class="col-md-3"><p>200 FOURTH AVE. N. NASHVILLE, TN</p></div>
   	</div>
 
 <!-- modal-->
-  	<div id="remodal" class="remodal" data-remodal-id="modal" data-remodal-options="hashTracking: false, closeOnOutsideClick: true" displayed="false">
+  	<div id="remodal" data-remodal-id="modal" displayed="false">
   		<button data-remodal-action="close" class="remodal-close"></button>
   		<h1>Sign up to be in the know</h1>
-  		<p>Get the scoop on pre-opening specials, events<br> and other great happenings at Noelle. 
+  		<p>
+        Get the scoop on pre-opening specials, events<br>
+        and other great happenings at Noelle.
   		</p>
   		<br>
-  		<form>
-  		FIRST NAME:<br>
-  		<input type="text" name="firstname"><br>
-  		LAST NAME:<br>
-  		<input type="text" name="lastname">
-  		EMAIL:<br>
-  		<input type="text" name="email">
-  		BIRTHDAY:<br>
-  		<input type="text" name="email">
-		</form>
-  		<button data-remodal-action="confirm" class="remodal-confirm" id="submit">SUBMIT</button>
-	</div>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+      		<form>
+            <div class="row">
+              <div class="col-sm-6 pad-right">
+        		    <label for="firstname">FIRST NAME</label><br>
+        		    <input type="text" name="firstname" id="firstname"><br>
+              </div>
+              <div class="col-sm-6 pad-left">
+        	      <label for="lastname">LAST NAME</label><br>
+                <input type="text" name="lastname" id="lastname">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <label for="email">EMAIL</label><br>
+                <input type="text" name="email" id="email">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 pad-right">
+                <label for="birthday">BIRTHDAY</label><br>
+                <input type="text" name="birthday" id="birthday" placeholder="  /  /  ">
+              </div>
+              <div class="col-sm-6 pad-left">
+                <label></label><br>
+                <input type="submit" data-remodal-action="confirm" class="remodal-confirm" id="submit">
+              </div>
+            </div>
+    		  </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 

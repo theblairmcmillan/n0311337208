@@ -1,9 +1,12 @@
 
-var inst = $('[data-remodal-id=modal]').remodal(); 
+var options = {
+  hashTracking: false
+}
+var inst = $('[data-remodal-id=modal]').remodal(options);
 
 
 $(window).scroll(function() {
-   	if ($(document).scrollTop() > 3000 && $("#remodal").attr("displayed") === "false") {
+   	if ($(document).scrollTop() > 2700 && $("#remodal").attr("displayed") === "false") {
 		inst.open();
 		$("#remodal").attr("displayed", "true")
    	}
