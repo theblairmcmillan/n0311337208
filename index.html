@@ -5,11 +5,13 @@
 
   <title>NOELLE</title>
   <meta name="description" content="Noelle Hotel">
+  <link rel="stylesheet" href="bower_components/remodal/dist/remodal.css">
+  <link rel="stylesheet" href="bower-components?remodal/dist/remodal-default-theme.css">
   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
+<body class="remodal-bg">
   <div class="container">
   	<!--- TOP ROW FOR VERTICAL LINE -->
   	<div class="row center-align" id="firstRow">
@@ -211,17 +213,17 @@
     <!-- line + we should keep in touch -->
     <div class="row center-align">
       <div class="col-md-12">
-    <!-- ARROW ROW 2-->
-    <div class="row center-align" id="arrowRow2">
-      <div class="col-md-12">
-        <div class="row first-line">
-          <img src="images/noelle-hotel-nashville-tn_ribbon.png" class="centerLine">
-        </div>
-        <div class="row">
-          <img src="images/noelle-hotel-nashville-tn_arrow-head.png" class="arrow">
-        </div>
-      </div>
-    </div>
+	    <!-- ARROW ROW 2-->
+	    <div class="row center-align" id="arrowRow2">
+	      <div class="col-md-12">
+	        <div class="row first-line">
+	          <img src="images/noelle-hotel-nashville-tn_ribbon.png" class="centerLine">
+	        </div>
+	        <div class="row">
+	          <img src="images/noelle-hotel-nashville-tn_arrow-head.png" class="arrow">
+	        </div>
+	      </div>
+	    </div>
         <div class="row">
           <h3>WE SHOULD STAY IN TOUCH</h3>
         </div>
@@ -261,6 +263,17 @@
   			<img src="images/noelle-hotel-nashville-tn_logomark.png">
   		</div>
   		<div class="col-md-4"><p>200 FOURTH AVE. N. NASHVILLE,TN</p></div>
+  	</div>
+
+<!-- modal-->
+  	<div id="remodal" class="remodal" data-remodal-id="modal" data-remodal-options="hashTracking: false, closeOnOutsideClick: true" displayed="false">
+  		<button data-remodal-action="close" class="remodal-close">x</button>
+  		<h1>Sign up to be in the know</h1>
+  		<p>Get the scoop on pre-opening specials, events<br> and other great happenings at Noelle. 
+  		</p>
+  		<br>
+  		<button data-remodal-action="confirm" class="remodal-confirm">SUBMIT</button>
+	</div>
 
 
 
@@ -268,6 +281,7 @@
 
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/remodal/dist/remodal.min.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="script.js"></script>
 </body>
