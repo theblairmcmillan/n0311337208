@@ -56,7 +56,11 @@ p {
 }
 
 .btm-mrg {
-	margin-bottom: 8px;
+	margin-bottom: 6px;
+}
+
+.top-mrg {
+	margin-top: 8px;
 }
 
 #firstRow {
@@ -95,22 +99,43 @@ p {
 	text-align: center;
 }
 
+#arrowRow2 {
+	height: 130px;
+	overflow: hidden;
+	text-align: center;
+}
+
+#arrowRow2 .first-line {
+	height: 110px;
+	overflow: hidden;
+}
+
 #arrowRow img,
-#bigLineRow img {
+#arrowRow2 img,
+#bigLineRow img,
+#bigLineRow2 img {
 	display: block;
 	margin: auto;
 }
 
-#arrowRow .arrow {
+#arrowRow .arrow,
+#arrowRow2 .arrow,
+#aBriefHistoryRow .arrow {
 	width: 30px;
+}
+
+#bigLineRow {
+	height: 180px;
+	overflow: hidden;
+}
+
+#bigLineRow2 {
+	height: 100px;
+	overflow: hidden;
 }
 
 #stayAWhileRow #heron {
 	height: 340px;
-}
-
-#stayAWhileRow h3 {
-	/*margin-top: 65px;*/
 }
 
 #stayAWhileRow .top-line {
@@ -120,17 +145,32 @@ p {
 
 #stayAWhileRow .btm-line {
 	height: 90px;
-	margin-top: 19px;
+	margin-top: 16px;
 }
 
 #aBriefHistoryRow h3 p {
 	margin-top: 20px
 }
 
-#building {
-	height: 800px;
-	margin-right: 10px;
+#aBriefHistoryRow .line-row {
+	height: 105px;
+	overflow: hidden;
+}
 
+#aBriefHistoryRow .last-row {
+	height: 112px;
+}
+
+#storied-past {
+	padding-top: 150px;
+}
+
+#storied-past p {
+	max-width: 350px;
+}
+
+#building {
+	height: 600px;
 }
 
 #aTownFullRow #quote {
