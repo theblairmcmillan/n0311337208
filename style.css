@@ -196,8 +196,9 @@ p {
 #button1, #button2 {
 	height: 35px;
 	border: 2px solid #b0643c;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 	text-align: center;
+	margin-top: -15px;
 }
 
 #logomark img {
@@ -209,12 +210,24 @@ p {
 	height:500px;
 }
 
+#buttonRow h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#buttonRow #end-of-the-line {
+	border-top: 2px solid;
+	margin-top: 0;
+	padding-top: 20px;
+}
+
 #footerRow {
-	height: 400px;
+	height: 320px;
 }
 
 #footerRow p {
-	font-size: 0.9em;
+	font-size: 0.8em;
+	padding-top: 15px;
 }
 
 .remodal {
