@@ -4,10 +4,175 @@ body, html {
 	background-color: #3e4847;
 }
 
+h1, h2, h3,h5, h6, p {
+	color: #b0643c;
+}
+
 h1 {
-	color:white;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 12px;
+}
+
+@font-face {
+  font-family: "Domaine";
+  src: url(fonts/vllg-Klim-DomaineSansText-AllStyles-WebFonts/DomaineSansTextWeb-Bold.woff) format("truetype");
+}
+
+@font-face {
+  font-family: "Grotesk";
+  src: url(fonts/vllg-Klim-FoundersGroteskText-AllStyles-WebFonts/FoundersGroteskTextWeb-Regular.woff) format("truetype");
+}
+
+
+h1, h2, h3, h5, h6 {
+	font-family: "Domaine", sans-serif;
+}
+
+.domaine {
+	font-family: "Domaine", sans-serif;
+}
+
+p {
+	font-family: "Grotesk", sans-serif;
+	font-size: 14px;
+	line-height: 1.2;
 }
 
 .center-align {
 	text-align: center !important;
+}
+
+.centerLine {
+	width: 2px;
+}
+
+.btm-mrg {
+	margin-bottom: 6px;
+}
+
+.top-mrg {
+	margin-top: 8px;
+}
+
+#firstRow {
+	height: 70px;
+	overflow: hidden;
+}
+
+#addressRow img {
+	height: 50px;
+	margin: 8px;
+}
+
+#thirdRow {
+	height: 100px;
+	overflow: hidden;
+	margin: 2px;
+}
+
+#logoRow #name {
+	height: 50px;
+	margin: 8px;
+}
+
+#logoRow .tag-line {
+	margin-top: 5px;
+	font-size: 0.8em;
+}
+
+#logoRow .diamond {
+	width: 10px;
+}
+
+#arrowRow {
+	height: 150px;
+	overflow: hidden;
+	text-align: center;
+}
+
+#arrowRow2 {
+	height: 130px;
+	overflow: hidden;
+	text-align: center;
+}
+
+#arrowRow2 .first-line {
+	height: 110px;
+	overflow: hidden;
+}
+
+#arrowRow img,
+#arrowRow2 img,
+#bigLineRow img,
+#bigLineRow2 img {
+	display: block;
+	margin: auto;
+}
+
+#arrowRow .arrow,
+#arrowRow2 .arrow,
+#aBriefHistoryRow .arrow {
+	width: 30px;
+}
+
+#bigLineRow {
+	height: 180px;
+	overflow: hidden;
+}
+
+#bigLineRow2 {
+	height: 100px;
+	overflow: hidden;
+}
+
+#stayAWhileRow #heron {
+	height: 340px;
+}
+
+#stayAWhileRow .top-line {
+	height: 70px;
+	overflow: hidden;
+}
+
+#stayAWhileRow .btm-line {
+	height: 90px;
+	margin-top: 16px;
+}
+
+#aBriefHistoryRow h3 p {
+	margin-top: 20px
+}
+
+#aBriefHistoryRow .line-row {
+	height: 105px;
+	overflow: hidden;
+}
+
+#aBriefHistoryRow .last-row {
+	height: 112px;
+}
+
+#storied-past {
+	padding-top: 150px;
+}
+
+#storied-past p {
+	max-width: 350px;
+}
+
+#building {
+	height: 600px;
+}
+
+#aTownFullRow #quote {
+	max-width: 260px;
 }
