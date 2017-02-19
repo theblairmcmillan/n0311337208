@@ -5,12 +5,15 @@
 
   <title>NOELLE</title>
   <meta name="description" content="Noelle Hotel">
+  <link rel="stylesheet" href="bower_components/remodal/dist/remodal.css">
+  <link rel="stylesheet" href="bower_components/remodal/dist/remodal-default-theme.css">
   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/png" href="images/noelle-hotel-nashville-tn_small-diamond.png">
 </head>
 
 <body>
-  <div class="container">
+  <div class="container" class="remodal-bg">
   	<!--- TOP ROW FOR VERTICAL LINE -->
   	<div class="row center-align" id="firstRow">
   		<div class="col-md-12">
@@ -198,7 +201,7 @@
   	<!-- A TOWN FULL OF ANIMALS -->
   	<div class="row center-align" id="aTownFullRow">
       <div class="col-md-4">
-        <h3>NASHVILLE</h3>
+        <h2>NASHVILLE</h2>
       </div>
       <div class="col-md-4">
         <img id="quote" src="images/noelle-hotel-nashville-tn_a-town-full-of-wild-animals.png">
@@ -211,26 +214,85 @@
     <!-- line + we should keep in touch -->
     <div class="row center-align">
       <div class="col-md-12">
-        <div class="row">
-          <img src="images/noelle-hotel-nashville-tn_ribbon.png" class="centerLine">
-          <img src="images/noelle-hotel-nashville-tn_arrow-head.png" class="centerLine">
-        </div>
+	    <!-- ARROW ROW 2-->
+	    <div class="row center-align" id="arrowRow2">
+	      <div class="col-md-12">
+	        <div class="row first-line">
+	          <img src="images/noelle-hotel-nashville-tn_ribbon.png" class="centerLine">
+	        </div>
+	        <div class="row">
+	          <img src="images/noelle-hotel-nashville-tn_arrow-head.png" class="arrow">
+	        </div>
+	      </div>
+	    </div>
         <div class="row">
           <h3>WE SHOULD STAY IN TOUCH</h3>
         </div>
-        <div class="row">
+        <div class="row" id="lastLine">
           <img src="images/noelle-hotel-nashville-tn_ribbon2.png" class="centerLine">
         </div>
       </div>
     </div>
 
-  	<!-- BOTTOM ROW -->
-  	<div class="row center-align" id="bottomRow">
+
+  	<!-- BUTTON ROW -->
+  	<div class="row center-align" id="buttonRow">
+  		<div class="col-md-1"></div>
+  		<div class="col-md-2">
+  			<div id="button1">
+  				<h6>GENERAL QUESTIONS</h6>
+  			</div>
+  		</div>
+  		<div class="col-md-6">
+  			<h6>THE END OF THE LINE</h6>
+  		</div>
+  		<div class="col-md-2">
+  			<div id="button2">
+  				<h6>MEDIA INQUIRIES</h6>
+  			</div>
+  		</div>
+  		<div class="col-md-1"></div>
     </div>
-  </div>
+
+
+  	<!-- FOOTER ROW -->
+  	<div class="row center-align" id="footerRow">
+  		<div class="col-md-4">
+  			<p>2017 NOELLE. ALL RIGHTS RESERVED</p>
+  		</div>
+  		<div class="col-md-4" id="logomark">
+  			<img src="images/noelle-hotel-nashville-tn_logomark.png">
+  		</div>
+  		<div class="col-md-4"><p>200 FOURTH AVE. N. NASHVILLE,TN</p></div>
+  	</div>
+
+<!-- modal-->
+  	<div id="remodal" class="remodal" data-remodal-id="modal" data-remodal-options="hashTracking: false, closeOnOutsideClick: true" displayed="false">
+  		<button data-remodal-action="close" class="remodal-close"></button>
+  		<h1>Sign up to be in the know</h1>
+  		<p>Get the scoop on pre-opening specials, events<br> and other great happenings at Noelle. 
+  		</p>
+  		<br>
+  		<form>
+  		FIRST NAME:<br>
+  		<input type="text" name="firstname"><br>
+  		LAST NAME:<br>
+  		<input type="text" name="lastname">
+  		EMAIL:<br>
+  		<input type="text" name="email">
+  		BIRTHDAY:<br>
+  		<input type="text" name="email">
+		</form>
+  		<button data-remodal-action="confirm" class="remodal-confirm" id="submit">SUBMIT</button>
+	</div>
+
+
+
+
 
 
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/remodal/dist/remodal.min.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="script.js"></script>
 </body>

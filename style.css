@@ -173,6 +173,62 @@ p {
 	height: 600px;
 }
 
+#aTownFullRow {
+	margin-top: 10px;
+}
+
 #aTownFullRow #quote {
 	max-width: 260px;
+}
+
+#aTownFullRow h2 {
+	padding-top: 200px;
+}
+
+#button1, #button2 {
+	height: 35px;
+	border: 2px solid #b0643c;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#logomark img {
+	height: 40px;
+	margin: 2px;
+}
+
+#lastLine img {
+	height:500px;
+}
+
+#footerRow {
+	height: 400px;
+}
+
+#footerRow p {
+	font-size: 0.9em;
+}
+
+.remodal {
+	background-color: #fbbd9c;
+
+}
+
+#remodal {
+	border: 5px solid #b0643c;
+	width: 400px;
+
+}
+
+#remodal form input {
+	border: 1px solid #b0643c;
+}
+
+#submit {
+	background-color: #b0643c;
+	color: white;
+}
+
+#remodel button {
+	color: #b0643c;
 }
