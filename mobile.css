@@ -49,6 +49,10 @@
     overflow: hidden;
   }
 
+  #stayAWhileRow {
+    height: 600px;
+  }
+
   #stayAWhileRow .top-line {
     visibility: hidden;
   }
@@ -64,6 +68,51 @@
   #heron2Col {
     visibility: hidden;
   }
+
+  #storied-past {
+    padding-top: 0px;
+  }
+  
+  #bigOleLine .line-row .col{
+    visibility: hidden
+  }
+
+  #bigOleLine .col {
+    height: 200px
+
+  }
+
+  #buildingDiv {
+    visibility: hidden 
+  }
+
+  #aTownFullRow h2 {
+    display: none;
+
+  }
+
+  #aBriefHistoryRow {
+    height: 900px;
+  }
+
+  #backGroundImage {
+    background-image: url("images/noelle-hotel-nashville-tn_boutique_rendering.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #end-of-the-line {
+    visibility: hidden;
+  }
+
+  #footerRow p {
+    visibility: hidden;
+  }
+
+
+}
+
+
 }
 
 /*@media only screen and (max-device-width: 736px) {
