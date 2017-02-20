@@ -1,8 +1,72 @@
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 450px) {
+  
+  #firstRow {
+    height: 30px;
+    overflow: hidden;
+  }
 
+  #addressRow img {
+    height: 70px;
+    margin: 8px;
+  }
+
+  #thirdRow {
+    height: 170px;
+    overflow: hidden;
+    margin: 2px;
+  }
+  
+  #logoRow #name {
+    height: 60px;
+    margin: 8px;
+  }
+
+  #logoRow .tag-line {
+    margin-top: 5px;
+    font-size: 1em;
+  }
+
+  #logoRow .diamond {
+    width: 10px;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+    #arrowRow {
+    height: 180px;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  #moreThisWayRow h3 {
+    margin-top: 0px;
+  }
+
+  #bigLineRow {
+    height: 120px;
+    overflow: hidden;
+  }
+
+  #stayAWhileRow .top-line {
+    visibility: hidden;
+  }
+
+  #stayAWhileRow #heron2 {
+    visibility: hidden;
+  }
+
+  #stayAWhileRow .btm-line {
+    visibility: hidden;
+  }
+
+  #heron2Col {
+    visibility: hidden;
+  }
 }
 
-@media only screen and (max-device-width: 736px) {
+/*@media only screen and (max-device-width: 736px) {
 
   h1 {
   	font-size: 1.2px;
@@ -283,5 +347,5 @@
   	color: #b0643c;
   }
 
-
-}
+*/
+/*}*/

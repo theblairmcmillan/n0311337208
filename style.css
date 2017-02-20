@@ -142,7 +142,11 @@ p {
 	overflow: hidden;
 }
 
-#stayAWhileRow #heron {
+#stayAWhileRow #heron1 {
+	height: 340px;
+}
+
+#stayAWhileRow #heron2 {
 	height: 340px;
 }
 
