@@ -57,12 +57,20 @@
     visibility: hidden;
   }
 
+  #stayAWhileRow h1 {
+    margin-top: 0px;
+  }
+
   #stayAWhileRow #heron2 {
     visibility: hidden;
   }
 
   #stayAWhileRow .btm-line {
     visibility: hidden;
+  }
+
+  #heron1 {
+    height: 250px;
   }
 
   #heron2Col {
@@ -93,6 +101,7 @@
 
   #aBriefHistoryRow {
     height: 900px;
+    margin: auto;
   }
 
   #backGroundImage {
@@ -109,7 +118,25 @@
     visibility: hidden;
   }
 
+  #button1 {
+    margin-top: 0px;
+  }
 
+  #footerRow img{
+    height: 100px;
+  }
+
+  #arrowRow2 .first-line{
+    height: 50px;
+  }
+
+  #remodal {
+    visibility: hidden;
+  }
+
+  body .remodal-bg {
+    display: none;
+  }
 }
 
 
