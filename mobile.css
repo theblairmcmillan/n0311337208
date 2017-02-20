@@ -1,8 +1,148 @@
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 450px) {
+  
+  #firstRow {
+    height: 30px;
+    overflow: hidden;
+  }
+
+  #addressRow img {
+    height: 70px;
+    margin: 8px;
+  }
+
+  #thirdRow {
+    height: 170px;
+    overflow: hidden;
+    margin: 2px;
+  }
+  
+  #logoRow #name {
+    height: 60px;
+    margin: 8px;
+  }
+
+  #logoRow .tag-line {
+    margin-top: 5px;
+    font-size: 1em;
+  }
+
+  #logoRow .diamond {
+    width: 10px;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+    #arrowRow {
+    height: 180px;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  #moreThisWayRow h3 {
+    margin-top: 0px;
+  }
+
+  #bigLineRow {
+    height: 120px;
+    overflow: hidden;
+  }
+
+  #stayAWhileRow {
+    height: 600px;
+  }
+
+  #stayAWhileRow .top-line {
+    visibility: hidden;
+  }
+
+  #stayAWhileRow h1 {
+    margin-top: 0px;
+  }
+
+  #stayAWhileRow #heron2 {
+    visibility: hidden;
+  }
+
+  #stayAWhileRow .btm-line {
+    visibility: hidden;
+  }
+
+  #heron1 {
+    height: 250px;
+  }
+
+  #heron2Col {
+    visibility: hidden;
+  }
+
+  #storied-past {
+    padding-top: 0px;
+  }
+  
+  #bigOleLine .line-row .col{
+    visibility: hidden
+  }
+
+  #bigOleLine .col {
+    height: 200px
+
+  }
+
+  #buildingDiv {
+    visibility: hidden 
+  }
+
+  #aTownFullRow h2 {
+    display: none;
+
+  }
+
+  #aBriefHistoryRow {
+    height: 900px;
+    margin: auto;
+  }
+
+  #backGroundImage {
+    background-image: url("images/noelle-hotel-nashville-tn_boutique_rendering.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #end-of-the-line {
+    visibility: hidden;
+  }
+
+  #footerRow p {
+    visibility: hidden;
+  }
+
+  #button1 {
+    margin-top: 0px;
+  }
+
+  #footerRow img{
+    height: 100px;
+  }
+
+  #arrowRow2 .first-line{
+    height: 50px;
+  }
+
+  #remodal {
+    visibility: hidden;
+  }
+
+  body .remodal-bg {
+    display: none;
+  }
+}
+
 
 }
 
-@media only screen and (max-device-width: 736px) {
+/*@media only screen and (max-device-width: 736px) {
 
   h1 {
   	font-size: 1.2px;
@@ -283,5 +423,5 @@
   	color: #b0643c;
   }
 
-
-}
+*/
+/*}*/
