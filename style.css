@@ -107,19 +107,22 @@ p {
 	text-align: center;
 }
 
-#arrowRow2 {
+#arrowRow2,
+#arrowRow3 {
 	height: 130px;
 	overflow: hidden;
 	text-align: center;
 }
 
-#arrowRow2 .first-line {
+#arrowRow2 .first-line,
+#arrowRow3 .first-line {
 	height: 110px;
 	overflow: hidden;
 }
 
 #arrowRow img,
 #arrowRow2 img,
+#arrowRow3 img,
 #bigLineRow img,
 #bigLineRow2 img {
 	display: block;
@@ -128,6 +131,7 @@ p {
 
 #arrowRow .arrow,
 #arrowRow2 .arrow,
+#arrowRow3 .arrow,
 #aBriefHistoryRow .arrow {
 	width: 30px;
 }
@@ -290,5 +294,3 @@ p {
 #remodel button {
 	color: #b0643c;
 }
-
-

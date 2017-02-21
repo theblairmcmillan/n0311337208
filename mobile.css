@@ -82,7 +82,7 @@
   }
 
   #storied-past {
-    padding-top: 0px;
+    padding: 0 25px 20px;
   }
 
   #bigOleLine .line-row .col{
@@ -91,7 +91,10 @@
 
   #bigOleLine .col {
     height: 200px
+  }
 
+  #bigLineRow2 {
+    height: 150px;
   }
 
   #buildingDiv {
@@ -104,16 +107,24 @@
   }
 
   #aBriefHistoryRow {
-    height: 900px;
+    height: 510px;
     margin: auto;
+  }
+
+  #aBriefHistoryRow .line-row {
+    display: none;
+  }
+
+  #aTownFullRow #quote {
+    max-width: 230px;
   }
 
   #backGroundImage {
     background-image: url("images/noelle-hotel-nashville-tn_boutique_rendering.jpg");
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 380px;
-    padding: 20px 0;
+    background-position: 15px 0;
+    background-size: 360px;
+    padding: 20px 0 60px;
   }
 
   #end-of-the-line {
@@ -133,10 +144,19 @@
   }
 
   #arrowRow2 {
-    height: 75px;
+    height: 65px;
   }
 
   #arrowRow2 .first-line{
+    height: 50px;
+  }
+
+  #arrowRow3 {
+    height: 65px;
+    margin-top: -50px;
+  }
+
+  #arrowRow3 .first-line{
     height: 50px;
   }
 
