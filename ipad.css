@@ -1,0 +1,12 @@
+@media only screen and (max-width: 800px) { 
+
+#building {
+	height: 400px;
+	margin-top: 150px;
+}
+
+#backGroundImage {
+	padding: 0px;
+}
+
+}
