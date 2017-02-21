@@ -342,3 +342,15 @@ p {
 #remodel button {
 	color: #b0643c;
 }
+
+h3 a, h3 a:active, h3 a:visited, h3 a:hover {
+    text-decoration:none;
+    color:#b0643c;
+
+}
+
+
+
+
+
+
