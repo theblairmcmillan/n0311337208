@@ -15,7 +15,7 @@ $( document ).ready(function() {
     var inst = $('[data-remodal-id=modal]').remodal(options);
 
     $(window).scroll(function() {
-      if ($(document).scrollTop() > 2700 && $("#remodal").attr("displayed") === "false") {
+      if ($(document).scrollTop() > 760 && $("#remodal").attr("displayed") === "false") {
         inst.open();
         $("#remodal").attr("displayed", "true")
       }
