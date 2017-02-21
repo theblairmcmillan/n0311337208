@@ -148,10 +148,14 @@
 
   #button1 {
     margin-top: 0px;
+    margin-right: 23px;
+    margin-left: 23px;
   }
 
   #button2 {
     margin-bottom: 20px;
+    margin-right: 23px;
+    margin-left: 23px;
   }
 
   #footerRow img {
