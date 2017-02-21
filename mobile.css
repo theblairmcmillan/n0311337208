@@ -1,5 +1,5 @@
 @media only screen and (max-width: 450px) {
-  
+
   #firstRow {
     height: 30px;
     overflow: hidden;
@@ -11,11 +11,11 @@
   }
 
   #thirdRow {
-    height: 170px;
+    height: 150px;
     overflow: hidden;
     margin: 2px;
   }
-  
+
   #logoRow #name {
     height: 60px;
     margin: 8px;
@@ -31,11 +31,11 @@
   }
 
   h2 {
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
 
-    #arrowRow {
-    height: 180px;
+  #arrowRow {
+    height: 155px;
     overflow: hidden;
     text-align: center;
   }
@@ -45,16 +45,20 @@
   }
 
   #bigLineRow {
-    height: 120px;
+    height: 100px;
     overflow: hidden;
   }
 
   #stayAWhileRow {
-    height: 600px;
+    height: 480px;
+  }
+
+  #stayAWhileRow .look-around-col {
+    margin-top: 25px;
   }
 
   #stayAWhileRow .top-line {
-    visibility: hidden;
+    display: none;
   }
 
   #stayAWhileRow h1 {
@@ -62,27 +66,27 @@
   }
 
   #stayAWhileRow #heron2 {
-    visibility: hidden;
+    display: none;
   }
 
   #stayAWhileRow .btm-line {
-    visibility: hidden;
+    display: none;
   }
 
-  #heron1 {
+  #stayAWhileRow #heron1 {
     height: 250px;
   }
 
   #heron2Col {
-    visibility: hidden;
+    display: none;
   }
 
   #storied-past {
     padding-top: 0px;
   }
-  
+
   #bigOleLine .line-row .col{
-    visibility: hidden
+    display: none;
   }
 
   #bigOleLine .col {
@@ -91,7 +95,7 @@
   }
 
   #buildingDiv {
-    visibility: hidden 
+    display: none;
   }
 
   #aTownFullRow h2 {
@@ -108,14 +112,16 @@
     background-image: url("images/noelle-hotel-nashville-tn_boutique_rendering.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 380px;
+    padding: 20px 0;
   }
 
   #end-of-the-line {
-    visibility: hidden;
+    display: none;
   }
 
   #footerRow p {
-    visibility: hidden;
+    display: none;
   }
 
   #button1 {
@@ -126,12 +132,16 @@
     height: 100px;
   }
 
+  #arrowRow2 {
+    height: 75px;
+  }
+
   #arrowRow2 .first-line{
     height: 50px;
   }
 
   #remodal {
-    visibility: hidden;
+    display: none;
   }
 
   body .remodal-bg {
