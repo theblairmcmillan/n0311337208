@@ -1,7 +1,7 @@
 $( document ).ready(function() {
   var is_mobile = false;
 
-  if ( $("#building").css('display') == 'none') {
+  if ( $("#buildingDiv").css('display') == 'none') {
     is_mobile = true;
   }
 

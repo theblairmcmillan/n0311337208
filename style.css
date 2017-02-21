@@ -201,6 +201,10 @@ p {
 	padding-top: 200px;
 }
 
+#hide-on-browser {
+	display: none;
+}
+
 #button1, #button2 {
 	height: 35px;
 	border: 2px solid #b0643c;
@@ -238,9 +242,14 @@ p {
 	padding-top: 15px;
 }
 
+#mobile-signup {
+	display: none;
+	text-align: center;
+}
+
+#mobile-signup,
 .remodal {
 	background-color: #fbbd9c;
-
 }
 
 #remodal {
@@ -249,8 +258,23 @@ p {
 	height: 400px;
 }
 
+::-webkit-input-placeholder {
+   color: #3e4847;
+	 text-align: center;
+	 font-family: "Grotesk", sans-serif;
+}
+
+#mobile-signup {
+	border: 5px solid #b0643c;
+	height: 380px;
+}
+
 #remodal form {
 	text-align: left;
+}
+
+#mobile-signup form {
+	text-align: center;
 }
 
 #remodal form input {
@@ -261,8 +285,26 @@ p {
 	margin-bottom: 10px;
 	color: #3e4847;
 }
-#remodal form input:focus {
+#mobile-signup form input {
+	border: 2px solid #b0643c;
+	padding: 10px;
+	background-color: #fbbd9c;
+	width: 100%;
+	margin-bottom: 8px;
+	color: #3e4847;
+}
+
+#remodal form input:focus,
+#mobile-signup form input:focus {
 	outline: none;
+}
+
+#mobile-signup input[type="submit"] {
+	font-family: "Domaine", sans-serif;
+	color: #fbbd9c;
+	text-transform: uppercase;
+	background-color: #b0643c;
+	margin-top: 2px;
 }
 
 #remodal input[type="submit"] {
@@ -282,8 +324,14 @@ p {
 	line-height: 1.2;
 }
 
-#remodal p {
+#remodal p,
+#mobile-signup p {
 	color: #3e4847;
+}
+
+#mobile-signup p {
+	font-size: 0.9em;
+	padding: 0 8px
 }
 
 #submit {

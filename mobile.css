@@ -119,6 +119,12 @@
     max-width: 230px;
   }
 
+  #hide-on-browser {
+  	display: block;
+    height: 50px;
+    overflow: hidden;
+  }
+
   #backGroundImage {
     background-image: url("images/noelle-hotel-nashville-tn_boutique_rendering.jpg");
     background-repeat: no-repeat;
@@ -131,6 +137,10 @@
     display: none;
   }
 
+  #footerRow {
+    height: 110px;
+  }
+
   #footerRow p {
     display: none;
   }
@@ -139,8 +149,12 @@
     margin-top: 0px;
   }
 
-  #footerRow img{
-    height: 100px;
+  #button2 {
+    margin-bottom: 20px;
+  }
+
+  #footerRow img {
+    height: 80px;
   }
 
   #arrowRow2 {
@@ -164,13 +178,23 @@
     display: none;
   }
 
+  #mobile-signup {
+    display: block;
+    margin: 0 20px;
+  }
+
+  #lastLine img {
+    height:100px;
+  }
+
   body .remodal-bg {
     display: none;
   }
-}
 
 
 }
+
+
 
 /*@media only screen and (max-device-width: 736px) {
 
