@@ -1,12 +1,211 @@
-@media only screen and (max-width: 800px) { 
+@media only screen and (min-width: 501px) and (max-width: 767px) {
 
-#building {
-	height: 400px;
-	margin-top: 150px;
+	#building {
+		height: 400px;
+		margin-top: 150px;
+	}
+
+	#backGroundImage {
+		padding: 0px;
+	}
+
+  #firstRow {
+    height: 30px;
+    overflow: hidden;
+  }
+
+  #addressRow img {
+    height: 70px;
+    margin: 8px;
+  }
+
+  #thirdRow {
+    height: 150px;
+    overflow: hidden;
+    margin: 2px;
+  }
+
+  #logoRow #name {
+    height: 60px;
+    margin: 8px;
+  }
+
+  #logoRow .tag-line {
+    margin-top: 5px;
+    font-size: 1em;
+  }
+
+  #logoRow .diamond {
+    width: 10px;
+  }
+
+  h2 {
+    font-size: 1.1em;
+  }
+
+  #arrowRow {
+    height: 155px;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  #moreThisWayRow h3 {
+    margin-top: 0px;
+  }
+
+  #bigLineRow {
+    height: 100px;
+    overflow: hidden;
+  }
+
+  #stayAWhileRow .look-around-col {
+		width: 60%;
+		margin: 25px auto;
+  }
+
+  #stayAWhileRow .top-line {
+    display: none;
+  }
+
+  #stayAWhileRow h1 {
+    margin-top: 0px;
+  }
+
+  #stayAWhileRow #heron2 {
+    display: none;
+  }
+
+  #stayAWhileRow .btm-line {
+    display: none;
+  }
+
+  #stayAWhileRow #heron1 {
+    height: 250px;
+  }
+
+  #heron2Col {
+    display: none;
+  }
+
+  #storied-past {
+    padding: 0 25px 20px;
+  }
+
+  #bigOleLine .line-row .col{
+    display: none;
+  }
+
+  #bigOleLine .col {
+    height: 200px
+  }
+
+  #bigLineRow2 {
+    height: 150px;
+  }
+
+  #buildingDiv {
+    display: none;
+  }
+
+  #aTownFullRow h2 {
+    display: none;
+
+  }
+
+  #aBriefHistoryRow {
+    min-height: 510px;
+    margin: auto;
+  }
+
+  #aBriefHistoryRow .line-row {
+    display: none;
+  }
+
+  #aTownFullRow #quote {
+    max-width: 230px;
+  }
+
+  #hide-on-browser {
+    display: block;
+    height: 50px;
+    overflow: hidden;
+  }
+
+  #backGroundImage {
+    background-image: url("images/noelle-hotel-nashville-tn_boutique_rendering.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: 360px;
+    padding: 20px 0 60px;
+  }
+
+  #end-of-the-line {
+    display: none;
+  }
+
+  #footerRow {
+    height: 110px;
+  }
+
+  #footerRow p {
+    display: none;
+  }
+
+  #button1 {
+    margin-top: 0px;
+  }
+
+  #button2 {
+    margin-bottom: 20px;
+  }
+
+  #footerRow img {
+    height: 80px;
+  }
+
+  #arrowRow2 {
+    height: 65px;
+  }
+
+  #arrowRow2 .first-line{
+    height: 50px;
+  }
+
+  #arrowRow3 {
+    height: 65px;
+    margin-top: -50px;
+  }
+
+  #arrowRow3 .first-line{
+    height: 50px;
+  }
+
+  #remodal {
+    display: none;
+  }
+
+  #mobile-signup {
+    display: block;
+    margin: 0 20px;
+  }
+
+  #lastLine img {
+    height:100px;
+  }
+
+  body .remodal-bg {
+    display: none;
+  }
+
 }
 
-#backGroundImage {
-	padding: 0px;
-}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	#building {
+		max-width: 120%;
+		height: auto;
+	}
 
+	#storied-past {
+		padding-top: 40px;
+	}
 }

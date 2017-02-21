@@ -183,6 +183,7 @@ p {
 
 #storied-past p {
 	max-width: 350px;
+  margin: 10px auto;
 }
 
 #building {
