@@ -1,0 +1,14 @@
+@media only screen and (min-width: 768px) {
+
+  #mobile-signup {
+    display: block;
+    margin: 0 25%;
+  }
+
+
+  	#stayAWhileRow .btm-line {
+  		display: none;
+  	}
+
+
+}

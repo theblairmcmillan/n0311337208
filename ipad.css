@@ -81,6 +81,7 @@
 
   #stayAWhileRow #heron1 {
     height: 250px;
+		margin-top: 15px;
   }
 
   #heron2Col {
@@ -142,6 +143,18 @@
   #end-of-the-line {
     display: none;
   }
+
+	#button1 {
+		margin-top: 0px;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+
+	#button2 {
+		margin-bottom: 20px;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
 
   #footerRow {
     height: 110px;
