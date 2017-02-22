@@ -256,7 +256,7 @@
       </div>
       <div class="row">
         <div class="col-xs-10 col-xs-offset-1">
-          <form>
+          <form id="mailing" method="post" action="https://script.google.com/macros/s/AKfycbz9Rpo4s-x_KbngFUQAlHKCx9OHVOnNP04tQHrwWnWXbxb_ntCA/exec">
             <div class="row">
               <div class="col-sm-12">
                 <input type="text" name="firstname" id="firstname" placeholder="FIRST NAME"><br>
@@ -274,7 +274,7 @@
             </div>
             <div class="row">
               <div class="col-sm-12">
-                <input type="text" name="birthday" id="birthday" placeholder="BIRTHDAY">
+                <input type="text" onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'" name="birthday" id="birthday" placeholder="BIRTHDAY">
               </div>
             </div>
             <div class="row">
@@ -337,7 +337,7 @@
   		<br>
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
-      		<form>
+      		<form id="mailing-modal" method="post" action="https://script.google.com/macros/s/AKfycbz9Rpo4s-x_KbngFUQAlHKCx9OHVOnNP04tQHrwWnWXbxb_ntCA/exec">
             <div class="row">
               <div class="col-sm-6 pad-right">
         		    <label for="firstname">FIRST NAME</label><br>
@@ -357,11 +357,11 @@
             <div class="row">
               <div class="col-sm-6 pad-right">
                 <label for="birthday">BIRTHDAY</label><br>
-                <input type="text" name="birthday2" id="birthday">
+                <input type="date" name="birthday2" id="birthday">
               </div>
               <div class="col-sm-6 pad-left">
                 <label></label><br>
-                <input type="submit" data-remodal-action="confirm" class="remodal-confirm" id="submit">
+                <input type="submit" value="submit" class="remodal-confirm" id="submit">
               </div>
             </div>
     		  </form>
@@ -373,14 +373,18 @@
   </div>
 
 
-
-
-
-
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/remodal/dist/remodal.min.js"></script>
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="bower_components/wow/dist/wow.min.js"></script>
   <script src="script.js"></script>
+
+  <script data-cfasync="false" type="text/javascript" src="mailing_list.js"></script>
+
+
+
+
+
+
 </body>
 </html>
