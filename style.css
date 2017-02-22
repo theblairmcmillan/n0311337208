@@ -284,6 +284,7 @@ p {
 	width: 100%;
 	margin-bottom: 10px;
 	color: #3e4847;
+	font-family: "Grotesk", sans-serif;
 }
 #mobile-signup form input {
 	border: 2px solid #b0643c;
@@ -292,6 +293,8 @@ p {
 	width: 100%;
 	margin-bottom: 8px;
 	color: #3e4847;
+	font-family: "Grotesk", sans-serif;
+	text-align: center;
 }
 
 #remodal form input:focus,
