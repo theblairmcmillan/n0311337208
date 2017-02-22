@@ -72,7 +72,7 @@ p {
 }
 
 #firstRow {
-	height: 70px;
+	height: 50px;
 	overflow: hidden;
 }
 
@@ -200,10 +200,6 @@ p {
 
 #aTownFullRow h2 {
 	padding-top: 200px;
-}
-
-#hide-on-browser {
-	display: none;
 }
 
 #button1, #button2 {
@@ -350,11 +346,4 @@ p {
 h3 a, h3 a:active, h3 a:visited, h3 a:hover {
     text-decoration:none;
     color:#b0643c;
-
 }
-
-
-
-
-
-
