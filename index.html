@@ -274,7 +274,7 @@
             </div>
             <div class="row">
               <div class="col-sm-12">
-                <input type="text" name="birthday" id="birthday" placeholder="BIRTHDAY">
+                <input type="text" onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'" name="birthday" id="birthday" placeholder="BIRTHDAY">
               </div>
             </div>
             <div class="row">

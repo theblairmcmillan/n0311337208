@@ -350,3 +350,12 @@ h3 a, h3 a:active, h3 a:visited, h3 a:hover {
     text-decoration:none;
     color:#b0643c;
 }
+
+
+::-webkit-datetime-edit-text { color: #b0643c; padding: 0 0.3em; }
+input::-webkit-datetime-edit {
+	color: transparent;
+}
+input:focus::-webkit-datetime-edit{ color: #3e4847; }
+::-webkit-inner-spin-button { display: none; }
+::-webkit-calendar-picker-indicator { display: none; }
