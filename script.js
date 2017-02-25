@@ -14,16 +14,16 @@ $( document ).ready(function() {
     }
     var inst = $('[data-remodal-id=modal]').remodal(options);
 
-    $(window).scroll(function() {
-      if ($(document).scrollTop() > 760 && $("#remodal").attr("displayed") === "false") {
+    setTimeout(function(){
+      if ($("#remodal").attr("displayed") === "false") {
         inst.open();
         $("#remodal").attr("displayed", "true")
       }
-    });
+    }, 10000);
   }
 });
 
-//fadez // 
+//fadez //
 new WOW().init();
 
 
