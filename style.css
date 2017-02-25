@@ -210,6 +210,19 @@ p {
 	margin-top: -15px;
 }
 
+#buttonRow a:hover {
+	text-decoration: none;
+}
+
+#buttonRow #button1:hover,
+#buttonRow #button2:hover {
+	background-color: #b0643c;
+}
+#buttonRow #button1:hover h3,
+#buttonRow #button2:hover h3 {
+	color: #282f2a;
+}
+
 #logomark img {
 	height: 40px;
 	margin: 2px;
