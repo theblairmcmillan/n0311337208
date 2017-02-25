@@ -27,8 +27,8 @@
 
 .remodal-overlay.remodal-is-opening,
 .remodal-overlay.remodal-is-closing {
-  -webkit-animation-duration: 0.3s;
-  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -66,8 +66,8 @@
 
 .remodal.remodal-is-opening,
 .remodal.remodal-is-closing {
-  -webkit-animation-duration: 0.3s;
-  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -105,8 +105,8 @@
   padding: 0;
 
   cursor: pointer;
-  -webkit-transition: color 0.2s;
-  transition: color 0.2s;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
   text-decoration: none;
 
   color: #b0643c;
@@ -151,8 +151,8 @@
   padding: 12px 0;
 
   cursor: pointer;
-  -webkit-transition: background 0.2s;
-  transition: background 0.2s;
+  -webkit-transition: background 0.4s;
+  transition: background 0.4s;
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
