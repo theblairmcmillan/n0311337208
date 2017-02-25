@@ -256,6 +256,10 @@ p {
 	padding-top: 15px;
 }
 
+#mailing {
+	display: none;
+}
+
 #mobile-signup {
 	text-align: center;
 }
