@@ -256,9 +256,7 @@ p {
 	padding-top: 15px;
 }
 
-#mailing {
-	display: none;
-}
+#mailing
 
 #mobile-signup {
 	text-align: center;
@@ -283,18 +281,25 @@ p {
 
 #mobile-signup {
 	border: 5px solid #b0643c;
-	height: 380px;
-}
-
-#remodal form {
-	text-align: left;
-}
-
-#mobile-signup form {
+	height: 320px;
 	text-align: center;
 }
 
-#remodal form input {
+#mailing {
+	display: none;
+}
+
+#remodal form,
+#large-mailing {
+	text-align: left;
+}
+
+#mobile-signup #mailing {
+	text-align: center;
+}
+
+#remodal form input,
+#mobile-signup #large-mailing input {
 	border: 2px solid #b0643c;
 	padding: 2px;
 	background-color: #fbbd9c;
@@ -303,7 +308,7 @@ p {
 	color: #282f2a;
 	font-family: "Grotesk", sans-serif;
 }
-#mobile-signup form input {
+#mobile-signup #mailing input {
 	border: 2px solid #b0643c;
 	padding: 10px;
 	background-color: #fbbd9c;
@@ -319,7 +324,7 @@ p {
 	outline: none;
 }
 
-#mobile-signup input[type="submit"] {
+#mobile-signup #mailing input[type="submit"] {
 	font-family: "Domaine", sans-serif;
 	color: #fbbd9c;
 	text-transform: uppercase;
@@ -327,7 +332,8 @@ p {
 	margin-top: 2px;
 }
 
-#remodal input[type="submit"] {
+#remodal input[type="submit"],
+#mobile-signup #large-mailing input[type="submit"] {
 	font-family: "Domaine", sans-serif;
 	color: #fbbd9c;
 	text-transform: uppercase;
@@ -336,7 +342,8 @@ p {
 	margin-top: 2px;
 }
 
-#remodal form label {
+#remodal form label,
+#large-mailing label {
 	color: #282f2a;
 	text-transform: uppercase;
 	font-family: "Grotesk", sans-serif;
@@ -359,7 +366,8 @@ p {
 	color: white;
 }
 
-#remodel button {
+#remodel button,
+#large-mailing button {
 	color: #b0643c;
 }
 
