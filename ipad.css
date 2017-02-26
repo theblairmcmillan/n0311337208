@@ -1,5 +1,13 @@
 @media only screen and (min-width: 501px) and (max-width: 767px) {
 
+	#large-mailing {
+		display: none;
+	}
+
+	#mailing {
+		display: block;
+	}
+
 	#building {
 		height: 400px;
 		margin-top: 150px;
@@ -199,8 +207,14 @@
 
   #mobile-signup {
     display: block;
-    margin: 0 20px;
+		max-width: 80%;
+		margin: 0 auto;
   }
+
+	#buttonRow {
+		max-width: 92%;
+		margin: 0 auto;
+	}
 
   #lastLine img {
     height:100px;
