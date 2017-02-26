@@ -1,11 +1,72 @@
-/*@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1500px) {
 
 
+#firstRow {
+	height: 40px;
+	overflow: hidden;
+}
+
+#addressRow img {
+	height: 100px;
+	margin: 8px;
+}
+
+#logoRow #name {
+	height: 140px;
+	margin: 8px;
+}
+
+#logoRow .tag-line {
+	margin-top: 5px;
+	font-size: 1.7em;
+}
+
+#logoRow .diamond {
+	width: 12px;
+}
+
+h2 {
+	font-size: 1.7em;
+}
+
+#moreThisWayRow h3 {
+	font-size: 1.4em;
+}
 
 
+#stayAWhileRow h1 {
+	font-size: 1.8em;
+}
 
+#stayAWhileRow p {
+	font-size: 1.3em;
+}
 
+#stayAWhileRow #heron1 {
+	height: 300px;
+	margin-top: 15px;
+}
 
+#stayAWhileRow #heron2 {
+	height: 300px;
+	margin-top: 15px;
+}
+
+#letsKeepThisGoingRow h3 {
+	font-size: 1.5em;
+}
+
+#aBriefHistoryRow h1 {
+	font-size: 2em;
+}
+
+#aBriefHistoryRow p {
+	font-size: 1.4em;
+}
+
+#soWelcomeRow {
+	font-size: 1.3em;
+}
 
 	
-}*/
+}
