@@ -119,7 +119,7 @@ p {
 
 #arrowRow2,
 #arrowRow3 {
-	height: 130px;
+	height: 19vh;
 	overflow: hidden;
 	text-align: center;
 }
@@ -210,7 +210,7 @@ p {
 }
 
 #aTownFullRow h2 {
-	padding-top: 50%;
+	padding-top: 55%;
 }
 
 #button1, #button2 {
