@@ -202,14 +202,15 @@ p {
 
 #aTownFullRow {
 	margin-top: 10px;
+	max-height: 60vh;
 }
 
 #aTownFullRow #quote {
-	max-width: 260px;
+	max-height: 60vh;
 }
 
 #aTownFullRow h2 {
-	padding-top: 200px;
+	padding-top: 50%;
 }
 
 #button1, #button2 {
