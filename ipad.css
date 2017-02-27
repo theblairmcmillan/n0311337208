@@ -28,7 +28,7 @@
   }
 
   #thirdRow {
-    height: 150px;
+    height: 20vh;
     overflow: hidden;
     margin: 2px;
   }
@@ -141,7 +141,7 @@
   }
 
   #backGroundImage {
-    background-image: url("images/noelle-hotel-nashville-tn_boutique_rendering.jpg");
+    background-image: url("images/noelle-hotel-nashville-tn-boutique_rendering8.jpg");
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: 360px;

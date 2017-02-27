@@ -82,14 +82,14 @@ p {
 }
 
 #thirdRow {
-	height: 30vh;
+	height: 19vh;
 /*	height: 100px;*/
 	overflow: hidden;
 	margin: 2px;
 }
 
 #thirdRow img {
-	height: 30vh;
+	height: 19vh;
 }
 
 
@@ -201,7 +201,7 @@ p {
 }
 
 #aTownFullRow #quote {
-	max-width: 260px;
+	max-width: 100%;
 }
 
 #aTownFullRow h2 {

@@ -58,7 +58,7 @@
   }
 
   #stayAWhileRow {
-    height: 480px;
+    /*height: 480px;*/
   }
 
   #stayAWhileRow .look-around-col {
@@ -116,7 +116,7 @@
   }
 
   #aBriefHistoryRow {
-    height: 510px;
+    /*height: 510px;*/
     margin: auto;
   }
 
@@ -128,6 +128,10 @@
     max-width: 230px;
   }
 
+  #aTownFullRow {
+    max-height: 160vh;
+  }
+
   #hide-on-browser {
   	display: block;
     height: 50px;
@@ -135,7 +139,7 @@
   }
 
   #backGroundImage {
-    background-image: url("images/noelle-hotel-nashville-tn_boutique_rendering.jpg");
+    background-image: url("images/noelle-hotel-nashville-tn-boutique_rendering8.jpg");
     background-repeat: no-repeat;
     background-position: 70% 0;
     background-size: 360px;
