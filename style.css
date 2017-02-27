@@ -385,7 +385,7 @@ input:focus::-webkit-datetime-edit{ color: #282f2a; }
 ::-webkit-inner-spin-button { display: none; }
 ::-webkit-calendar-picker-indicator { display: none; }
 
-@media only screen and (min-height: 620px) and (max-height: 660px) {
+@media only screen and (min-height: 620px) and (max-height: 680px) {
 	#arrowRow {
 		height: 120px;
 	}
@@ -396,17 +396,17 @@ input:focus::-webkit-datetime-edit{ color: #282f2a; }
 	}
 }
 
-@media only screen and (min-height: 661px) and (max-height: 690px) {
+@media only screen and (min-height: 681px) and (max-height: 800px) {
 	#arrowRow {
-		height: 180px;
+		height: 190px;
 	}
 
 	#arrowRow .first-row img{
-		height: 155px;
+		height: 165px;
 	}
 
 	#arrowRow .first-row {
-		height: 155px;
+		height: 165px;
 		overflow: hidden;
 	}
 }
