@@ -18,7 +18,7 @@
 
 #logoRow .tag-line {
 	margin-top: 5px;
-	font-size: 1.7em;
+	font-size: 1.5em;
 }
 
 #logoRow .diamond {
@@ -26,45 +26,80 @@
 }
 
 h2 {
-	font-size: 1.7em;
+	font-size: 1.5em;
 }
 
 #moreThisWayRow h3 {
-	font-size: 1.4em;
+	font-size: 1.5em;
 }
 
 
 #stayAWhileRow h1 {
-	font-size: 1.8em;
+	font-size: 1.5em;
 }
 
 #stayAWhileRow p {
-	font-size: 1.3em;
+	font-size: 1.4em;
 }
 
 #stayAWhileRow #heron1 {
-	height: 300px;
-	margin-top: 15px;
+	height: 400px;
+	margin-top: 50px;
 }
 
 #stayAWhileRow #heron2 {
-	height: 300px;
-	margin-top: 15px;
+	height: 400px;
+	margin-top: 50px;
 }
 
 #letsKeepThisGoingRow h3 {
 	font-size: 1.5em;
 }
 
+#bigLineRow2 {
+	height:140px;
+	overflow: hidden;
+
+
+}
+
 #aBriefHistoryRow h1 {
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 #aBriefHistoryRow p {
-	font-size: 1.4em;
+	font-size: 1.5em;
 }
 
-#soWelcomeRow {
+#soWelcomeRow h3 {
+	font-size: 1.5em;
+	width:300px;
+	margin-left: -40px;
+}
+
+#stayInTouch h3 {
+	font-size: 1.5em;
+}
+
+#aTownFullRow h2 {
+	font-size: 1.5em;
+}
+
+#aTownFullRow #quote {
+	max-width: 260px;
+
+}
+
+#storied-past {
+	margin-top: -70px;
+	padding-top: 50px;
+}
+
+#building {
+	margin-top: -50px;
+}
+
+#footerRow p {
 	font-size: 1.3em;
 }
 
