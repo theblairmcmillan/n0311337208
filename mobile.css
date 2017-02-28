@@ -211,3 +211,10 @@
 
 
 }
+
+
+@media only screen and (max-width: 340px) {
+  #mobile-signup {
+    height: 400px;
+  }
+}
