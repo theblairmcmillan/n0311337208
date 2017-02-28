@@ -109,7 +109,7 @@
   }
 
   #bigLineRow2 {
-    height: 150px;
+    height: 16vh;
   }
 
   #buildingDiv {
@@ -118,7 +118,10 @@
 
   #aTownFullRow h2 {
     display: none;
+  }
 
+  #aTownFullRow {
+    max-height: 100vh;
   }
 
   #aBriefHistoryRow {
@@ -144,7 +147,7 @@
     background-image: url("images/noelle-hotel-nashville-tn-boutique_rendering8.jpg");
     background-repeat: no-repeat;
     background-position: 50% 0;
-    background-size: 360px;
+    background-size: 49vh;
     padding: 20px 0 60px;
   }
 

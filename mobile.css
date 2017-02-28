@@ -103,7 +103,7 @@
   }
 
   #bigLineRow2 {
-    height: 150px;
+    height: 14vh;
   }
 
   #buildingDiv {
@@ -142,7 +142,7 @@
     background-image: url("images/noelle-hotel-nashville-tn-boutique_rendering8.jpg");
     background-repeat: no-repeat;
     background-position: 70% 0;
-    background-size: 360px;
+    background-size: 49vh;
     padding: 20px 0 60px;
   }
 
