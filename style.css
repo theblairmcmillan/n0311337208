@@ -146,6 +146,11 @@ p {
 	width: 30px;
 }
 
+#smLineRow {
+	height: 120px;
+	overflow: hidden;
+}
+
 #bigLineRow {
 	height: 180px;
 	overflow: hidden;
@@ -214,22 +219,32 @@ p {
 	padding-top: 55%;
 }
 
-#button1, #button2 {
-	height: 35px;
-	border: 2px solid #b0643c;
-	margin-bottom: 40px;
-	text-align: center;
-	margin-top: -15px;
+#careersButton {
+	margin-bottom: 20px;
 }
 
-#buttonRow a:hover {
+#button1, #button2 {
+	margin-top: -15px;
+	margin-bottom: 40px;
+}
+
+#button1, #button2, #careersButton {
+	height: 35px;
+	border: 2px solid #b0643c;
+	text-align: center;
+}
+
+#buttonRow a:hover,
+#careersRow a:hover {
 	text-decoration: none;
 }
 
+#careersRow #careersButton:hover,
 #buttonRow #button1:hover,
 #buttonRow #button2:hover {
 	background-color: #b0643c;
 }
+#careersRow #careersButton:hover h3,
 #buttonRow #button1:hover h3,
 #buttonRow #button2:hover h3 {
 	color: #282f2a;
@@ -248,6 +263,7 @@ p {
 	height:200px;
 }
 
+#careersRow h3,
 #buttonRow h3 {
 	margin-top: 10px;
 	margin-bottom: 10px;
