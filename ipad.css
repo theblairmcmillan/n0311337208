@@ -61,6 +61,11 @@
     margin-top: 0px;
   }
 
+  #smLineRow {
+    height: 84px;
+    overflow: hidden;
+  }
+
   #bigLineRow {
     height: 100px;
     overflow: hidden;
@@ -155,6 +160,11 @@
     display: none;
   }
 
+	#careersButton {
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+
 	#button1 {
 		margin-top: 0px;
 		margin-right: 20px;
@@ -215,7 +225,8 @@
 		height: 380px;
   }
 
-	#buttonRow {
+	#buttonRow,
+  #careersRow {
 		max-width: 92%;
 		margin: 0 auto;
 	}
