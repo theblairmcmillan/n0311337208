@@ -76,6 +76,34 @@ p {
 	padding-right: 5px;
 }
 
+#navbar {
+	border-bottom: 2px solid #b0643c;
+	width: 100%;
+	position: fixed;
+	background-color: #282e2a;
+	z-index: 10;
+	height: 30px;
+}
+
+.navbarButton {
+	width: 350px;
+	position: absolute;
+	top: 10px;
+	background-color: #282e2a;
+}
+
+.navbarButton h3 {
+	margin: 10px;
+}
+
+.navbarButton:nth-child(1) {
+	left: calc(50% + 250px);
+}
+
+.navbarButton:nth-child(2) {
+	left: calc(50% - 350px - 250px);
+}
+
 #firstRow {
 	height: 50px;
 	overflow: hidden;
@@ -228,23 +256,26 @@ p {
 	margin-bottom: 40px;
 }
 
-#button1, #button2, #careersButton {
+#button1, #button2, #careersButton, .navbarButton {
 	height: 35px;
 	border: 2px solid #b0643c;
 	text-align: center;
 }
 
 #buttonRow a:hover,
+.navbarButton a:hover,
 #careersRow a:hover {
 	text-decoration: none;
 }
 
 #careersRow #careersButton:hover,
+.navbarButton:hover,
 #buttonRow #button1:hover,
 #buttonRow #button2:hover {
 	background-color: #b0643c;
 }
 #careersRow #careersButton:hover h3,
+.navbarButton:hover h3,
 #buttonRow #button1:hover h3,
 #buttonRow #button2:hover h3 {
 	color: #282f2a;
