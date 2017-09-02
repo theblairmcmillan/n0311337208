@@ -85,6 +85,18 @@ p {
 	height: 30px;
 }
 
+@media (max-width: 1240px) {
+	#navbar {
+		display: none;
+	}
+}
+
+@media (min-width: 1240px) {
+	.responsiveNavRow {
+		display: none;
+	}
+}
+
 .navbarButton {
 	width: 350px;
 	position: absolute;
@@ -247,7 +259,7 @@ p {
 	padding-top: 55%;
 }
 
-#careersButton {
+.responsiveNavButton {
 	margin-bottom: 20px;
 }
 
@@ -256,7 +268,7 @@ p {
 	margin-bottom: 40px;
 }
 
-#button1, #button2, #careersButton, .navbarButton {
+#button1, #button2, .responsiveNavButton, .navbarButton {
 	height: 35px;
 	border: 2px solid #b0643c;
 	text-align: center;
@@ -264,17 +276,17 @@ p {
 
 #buttonRow a:hover,
 .navbarButton a:hover,
-#careersRow a:hover {
+.responsiveNavRow a:hover {
 	text-decoration: none;
 }
 
-#careersRow #careersButton:hover,
+.responsiveNavRow .responsiveNavButton:hover,
 .navbarButton:hover,
 #buttonRow #button1:hover,
 #buttonRow #button2:hover {
 	background-color: #b0643c;
 }
-#careersRow #careersButton:hover h3,
+.responsiveNavRow .responsiveNavButton:hover h3,
 .navbarButton:hover h3,
 #buttonRow #button1:hover h3,
 #buttonRow #button2:hover h3 {
@@ -294,7 +306,7 @@ p {
 	height:200px;
 }
 
-#careersRow h3,
+.responsiveNavRow h3,
 #buttonRow h3 {
 	margin-top: 10px;
 	margin-bottom: 10px;
